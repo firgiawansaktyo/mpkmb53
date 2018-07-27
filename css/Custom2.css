@@ -1,0 +1,46 @@
+/**
+ *Copyright (c) 2016 MPKMB53 IPB
+	@Tim Web MPKMB53
+	
+ **/
+ 
+	/*Fonts*/
+	
+@font-face{
+	font-family: Philosopher;
+	src: url(../fonts/Philosopher.ttf);
+	
+	/*General*/
+	
+	html, body{
+	font-family: 'Philosopher', sans-serif;
+	color:#800C24;
+}
+
+h1{
+	font-size:4vmax;
+}
+
+.navbar{
+	background: #000;
+	.navimg{
+	height: 30px;
+	margin-top: -5px;
+}
+
+.navbar-brand{
+	font-family: Philosopher;
+	font-size: 35px;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color:#fff;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus{
+	color:#000;
+	background: #fff;
+	transition-duration: 0.75s;
+}	
